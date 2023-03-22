@@ -1,0 +1,71 @@
+
+html, body {
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #ff4c68;
+}
+
+.banner{
+  background-color: #ff4c68;
+  color: White;
+  width: 100%;
+  height: 60px;
+  margin: 0 0 0 0;
+}
+.facebookTitle{
+  width: 50%;
+  height: 50px;
+  float: left;
+  text-align: center;
+}
+.login{
+  width: 50%;
+  float: right;
+   padding-top: 24px;
+}
+button{
+  height: 30px;
+  color: White;
+  background-color: #ff4c68;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+button:hover{
+background-color: #fd7e14;
+
+}
+input{
+  height: 30px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+.gender{
+  margin-right: 30px;
+  padding-top: 0;
+}
+.Fbody{
+  display: inline-block;
+  background-color: lightgray;
+  height: 600px;
+  width: 100%;
+  margin: 0;
+  border-radius: 300px 0 300px 0;
+}
+.bodyLeft{
+
+  padding-top: 150px;
+  width: 48.5%;
+  float: left;
+
+}
+.bodyRight{
+
+  padding-top: 80px;
+  width: 50%;
+  float: right;
+
+
+}

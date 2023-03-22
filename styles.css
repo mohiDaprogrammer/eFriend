@@ -1,0 +1,449 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+    position: relative;
+}
+
+h1 {
+    font-family: "Montserrat-black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Montserrat-black";
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+h3 {
+    font-family: "Montserrat-bold";
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+/*navigation bar*/
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar-collapse {
+    text-align: center;
+}
+
+.nav-item {
+    /*    padding: 0 5px;*/
+    text-align: center;
+}
+
+.row1 {
+    color: white;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+    font-weight: bold;
+}
+
+.auto1 {
+    padding-top: 0px;
+    position: static;
+    margin-right: 40px;
+}
+
+.auto-x {
+    padding-top: 6px;
+    background-color: transparent;
+    border-color: lightgray;
+    font-size: 15px;
+}
+
+.auto-x:hover {
+    padding-top: 6px;
+    background-color: transparent;
+    border-color: lightgray;
+    color: white;
+    font-size: 13px;
+}
+
+.auto2 {
+    padding-right: 40px;
+    position: static;
+    padding-top: 30px;
+}
+
+/*download buttons*/
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/*title image*/
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+}
+@media () {
+
+}
+
+.signup-butum {
+    position: absolute;
+    bottom: 80px;
+    right: 40px;
+    height: 50px;
+    width: 250px;
+    padding: 0px;
+    text-align: center;
+    float: right;
+    display: flex;
+}
+
+.butum1 {
+    color: white;
+    font-family: "Montserrat-bald";
+    border-style: none;
+    font-size: 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    float: left;
+}
+
+.butum2 {
+    color: white;
+    font-family: "Montserrat-bald";
+    border-style: none;
+    font-size: 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    float: right;
+}
+
+.butum1:hover {
+    background-color: #ef8172;
+    box-shadow: -10px 10px white;
+}
+
+.butum2:hover {
+    background-color: #ef8172;
+    box-shadow: 10px 10px white;
+}
+
+/*features text alignment*/
+#features {
+    background-color: #363946;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+/*
+.text-align {
+
+}
+*/
+
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+/*---------------- */
+.icon:hover {
+    color: #ff4c68;
+    margin-bottom: 1rem;
+}
+
+/*testemonial section*/
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.carousel-inner {}
+
+.carousel-item {
+    padding: 50px 40px;
+}
+.CrControl {
+    padding: 10px;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    height: 100%;
+    width: 20%;
+    margin-top: 30px;
+}
+
+.testimonial-image:hover {
+    box-shadow: 0 0 10px 10px #fff;
+}
+
+/*Press section*/
+#press {
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.press-image {
+    height: 50px;
+    width: 100%;
+}
+
+/*pricing section */
+#pricing {
+    text-align: center;
+    background-color: #ff4c68;
+    line-height: 4;
+}
+
+.pricing-text {}
+
+.pricing-content {
+    line-height: 2;
+    border: 1px dashed white;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.signup-for-product {
+    border-radius: 10px;
+    width: 110px;
+    height: 46px;
+    background-color: #ff4c55;
+    border-style: none;
+    font-size: 20px;
+    color: white;
+}
+
+.signup-for-product:hover {
+    background-color: #ef8172;
+}
+
+.chaya:hover {
+    box-shadow: 0 0 5px 2px #fff;
+}
+
+/*Call to action section*/
+#cta {
+    text-align: center;
+    background-color: #ef8172;
+}
+
+/*footer section*/
+#footer {
+    text-align: center;
+    background-color: black;
+}
+
+.top-footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.icon1 {
+    color: royalblue;
+}
+
+.icon2 {
+    color: deepskyblue;
+}
+
+.icon3 {
+    color: mediumpurple;
+}
+
+.icon4 {
+    color: orangered;
+}
+
+.icon5 {
+    color: orange;
+}
+
+
+.middle-footer {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+a {
+    color: white;
+    padding: 10px 30px 10px;
+}
+
+.middle-footer a:link {
+    text-decoration: none;
+}
+
+.middle-footer a:visited {
+    background: transparent;
+}
+
+.middle-footer a:hover {
+    box-shadow: 0 0 5px 5px #fff;
+    color: white;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+.middle-footer a:active {
+    background-color: #ef8172;
+}
+
+.bottom-footer {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+/*about section*/
+#about {
+    background-color: #ef8172;
+    color: white;
+}
+
+.box {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: justify;
+    line-height: 2;
+}
+
+.box-result {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 30px;
+    text-align: justify;
+    line-height: 2;
+}
+
+.box-left {
+    height: 400px;
+    width: 50%;
+    padding-right: 15px;
+}
+
+.box img {
+    vertical-align: middle;
+    border-style: none;
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.box img:hover {
+    height: 410px;
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px white;
+}
+
+.box-right {
+    height: 400px;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.padded-text {
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.box-right-top {
+    height: auto;
+}
+
+.box-right-bottom {
+    height: auto;
+}
+
+.Ot-box-left {
+    width: 33%;
+    float: left;
+}
+
+.Ot-box-middle {
+    width: 33%;
+}
+
+.Ot-box-right {
+    width: 33%;
+    float: right;
+}
+
+/*
+.ot-rank {
+    background-color: aliceblue;
+    height: 200px;
+    width: 33%;
+}
+*/
+.result {
+    background-color: #ff4c68;
+    height: 300px;
+    margin-top: 130px;
+    border-radius: 10px;
+}
+
+.result1 {
+    width: 25%;
+    text-align: center;
+}
+
+.result2 {
+    width: 25%;
+    text-align: center;
+}
+
+.result3 {
+    width: 25%;
+    text-align: center;
+}
+
+.result4 {
+    width: 25%;
+    text-align: center;
+}
+
+.span-size {
+    font-size: 50px;
+    color: #ef8172;
+}
+----------------------- Softw Distribution -------------------------
+#Page-body{
+
+}
