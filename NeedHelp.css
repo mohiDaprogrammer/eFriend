@@ -1,0 +1,74 @@
+#midbody {
+
+}
+.mid-body{
+  background-color: #ff4c68;
+  height: 500px;
+  display: flex;
+}
+.mid-body1{
+  width:60%;
+  height:100%;
+  background-color: #ff4c80;
+  border-radius: 30px 0 0 30px;
+  border-left: 3px dotted LightBlue;
+  border-top: 3px dotted LightBlue;
+  border-right: 12px dotted DarkBlue;
+  border-bottom: 3px dotted LightBlue;
+  margin-left: 40px;
+}
+    .AboutUsTopParagrapgh{
+      text-align: left;
+      border: 1px dotted red;
+      border-radius: 8px 40px 8px 40px;
+      width: 80%;
+      height: 140px;
+      background-color: skyblue;
+      margin-left: auto;
+      margin-right: auto;
+      overflow: hidden;
+          }
+    .AboutUsMiddleParagrapgh{
+      text-align: center;
+      border: 1px dotted red;
+      border-radius: 40px 8px 40px 8px;
+      width: 80%;
+      height: 140px;
+      background-color: lightgray;
+      margin-left: auto;
+      margin-right: auto;
+      overflow: hidden;
+    }
+    .AboutUsLastParagrapgh{
+      text-align: right;
+      border: 1px dotted red;
+      border-radius: 8px 40px 8px 40px;
+      width: 80%;
+      height: 140px;
+      background-color: lightpink;
+      margin-left: auto;
+      margin-right: auto;
+      overflow: hidden;
+    }
+.mid-body2{
+  width:40%;
+  height:100%;
+  background-color: #ff4c80;
+  border-radius: 0 30px 30px 0;
+  border-left: 15px dashed DarkBlue;
+  border-top: 3px dotted Green;
+  border-right: 3px dotted Green;
+  border-bottom: 3px dotted Green;
+  margin-right: 40px;
+}
+
+
+-----------------Form CSS------------------------------------------------
+.form_items{
+  width: 100%;
+  height: 100%;
+
+}
+.Input-Class{
+  width: 50px;
+}
